@@ -180,7 +180,7 @@ export default function Home() {
                             <h3 className="md:text-6xl text-2xl font-montserat font-bold">
                                 Important Aspect
                             </h3>
-                            <p data-aos='fade-in' className='pt-6 leading-loose'>
+                            <p data-aos='fade-in' className='pt-6 lg:leading-loose'>
                                 The Decetra Protocol can be used in a wide range of applications, including enterprise file sharing, digital asset management, and secure data exchange. The protocol is designed to be flexible and customizable, so that it can be tailored to the specific needs of different use cases.
                             </p>
                         </div>
@@ -197,7 +197,7 @@ export default function Home() {
                             <h3 className="md:text-6xl text-2xl font-montserat font-bold">
                                 Another Important Aspect
                             </h3>
-                            <p data-aos='fade-in' className='pt-6 leading-loose'>
+                            <p data-aos='fade-in' className='pt-6 lg:leading-loose'>
                                 Another important aspect of the Decetra Protocol is its focus on data provenance. The protocol enables users to track the history of their files, including all access requests, modifications, and transfers. This provides a transparent and auditable record of data transactions, which can be used to verify the authenticity and integrity of files.
                             </p>
                         </div>
