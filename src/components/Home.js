@@ -140,29 +140,6 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* Achievement section */}
-
-            <div id='achievement' className="">
-
-                <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
-                    <div data-aos="fade-up" data-aos-delay="350" className='lg:w-10/12 text-center flex flex-col mx-auto'>
-
-                        <h3 data-aos="slide-up" className='md:text-5xl text-3xl font-bold text-white-100'>
-                            Experience The New Age of Data Transfer
-                        </h3>
-
-                        <p className='pt-6 leading-loose opacity-60 lg:w-8/12 flex mx-auto'>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form
-                        </p>
-
-                    </div>
-                </div>
-
-                <div data-aos="zoom-in" data-aos-delay="350" className="">
-                    <img src={data} alt="Logo" className='' />
-                </div>
-            </div>
-
             {/* How it Works */}
 
             <div id='working' className="mt-8">
