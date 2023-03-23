@@ -127,7 +127,7 @@ export default function Home() {
                                 Key feature
                             </h2>
 
-                            <p className='py-6 leading-loose opacity-80 text-xl'>
+                            <p className='py-6 lg:leading-loose opacity-80 lg:text-xl'>
                                 One of the key features of the Decetra Protocol is its emphasis on user privacy and security. All files shared through the protocol are encrypted using end-to-end encryption, which means that only the sender and receiver have access to the unencrypted content. This ensures that files are protected from unauthorized access or interception, even if they are intercepted during transmission.
                             </p>
 
