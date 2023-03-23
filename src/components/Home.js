@@ -29,7 +29,7 @@ export default function Home() {
 
             {/* top section */}
 
-            <video src={video} autoPlay height="500" muted loop className='absolute opacity-40 left-0 right-0 w-full md::mt-0 mt-44'></video>
+            <video src={video} autoPlay height="500" muted loop className='absolute opacity-40 left-0 right-0 w-full md:mt-0 mt-44'></video>
 
             <div className="lg:px-20 px-5 bg-top relative z-20">
                 <div className='container mx-auto'>
