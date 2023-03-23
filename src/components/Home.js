@@ -6,7 +6,7 @@ import about from '../assets/about.png';
 import feature from '../assets/feature.png';
 import data from '../assets/data.png';
 import video from '../assets/video.mp4';
-import bg_top from '../assets/bg_top.png';
+// import bg_top from '../assets/bg_top.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -29,7 +29,7 @@ export default function Home() {
 
             {/* top section */}
 
-            <video src={video} autoPlay height="500" muted loop className='absolute opacity-40 left-0 right-0 w-full'></video>
+            <video src={video} autoPlay height="500" muted loop className='absolute opacity-40 left-0 right-0 w-full md::mt-0 mt-44'></video>
 
             <div className="lg:px-20 px-5 bg-top relative z-20">
                 <div className='container mx-auto'>
@@ -46,7 +46,7 @@ export default function Home() {
                                 Decentra protocol, the future of data transfer in blockchain networks.
                             </h2>
 
-                            <p data-aos='fade-out' className='pt-8 pb-6 text-xl leading-loose'>
+                            <p data-aos='fade-out' className='pt-8 pb-6 lg:text-xl leading-loose'>
                                 Introducing DECENTRA PROTOCOL, A Blockchain and IPFS Framework for Secure File Sharing and Data Provenance
                             </p>
 
@@ -117,7 +117,7 @@ export default function Home() {
                     <div className="lg:flex block justify-center items-center gap-x-16 py-16">
 
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="">
+                        <div data-aos="zoom-in" data-aos-delay="350" className="w-10/12 sm:flex mx-auto">
                             <img src={feature} alt="Logo" className='' />
                         </div>
 
@@ -167,8 +167,7 @@ export default function Home() {
                 <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
 
 
-
-                    <div className='flex justify-center gap-x-20 mx-auto'>
+                    <div className='lg:flex justify-center gap-x-20 mx-auto space-y-6'>
 
                         <div className="lg:w-1/2 w-full">
                             <h3 data-aos='fade-up' className="md:text-6xl text-2xl font-montserat font-bold text-blur">
