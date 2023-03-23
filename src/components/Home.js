@@ -170,7 +170,7 @@ export default function Home() {
                 <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
 
                     <h3 className="md:text-6xl text-2xl font-montserat font-semibold text-center">
-                        how does it work?
+                        How does it work?
                     </h3>
 
                     <img src={work_1} alt="Logo" className='flex mx-auto py-12' />
