@@ -6,7 +6,10 @@ import about from '../assets/about.png';
 import feature from '../assets/feature.png';
 import data from '../assets/data.png';
 import video from '../assets/video.mp4';
-// import bg_top from '../assets/bg_top.png';
+import work_1 from '../assets/work_1.png';
+import server from '../assets/server.png';
+import server_1 from '../assets/server_1.png';
+import monitor from '../assets/monitor.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -114,14 +117,14 @@ export default function Home() {
             <div id='features' className="lg:px-20 px-5">
                 <div className='container mx-auto'>
 
-                    <div className="lg:flex block justify-center items-center gap-x-16 py-16">
+                    <div className="lg:flex block justify-between items-center gap-x-16 py-16">
 
 
                         <div data-aos="zoom-in" data-aos-delay="350" className="">
                             <img src={feature} alt="Logo" className='w-10/12 sm:flex mx-auto' />
                         </div>
 
-                        <div data-aos="fade-left" className="lg:w-1/2 w-full md:mt-0 mt-12 text-right">
+                        <div data-aos="fade-left" className="lg:w-1/2 w-full md:mt-0 mt-12">
 
                             <h2 className='md:text-5xl text-3xl font-bold text-white-100'>
                                 Key feature
@@ -166,9 +169,117 @@ export default function Home() {
 
                 <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
 
-                    <p className='bg-purple-100 flex mx-auto w-36 rounded-full text-center py-3 px-5 mb-8'>
-                        How it works
+                    <h3 className="md:text-6xl text-2xl font-montserat font-semibold text-center">
+                        how does it work?
+                    </h3>
+
+                    <img src={work_1} alt="Logo" className='flex mx-auto py-12' />
+
+                    <p data-aos='fade-in' className='pt-6 lg:leading-loose text-center lg:text-xl lg:w-10/12 flex- mx-auto'>
+                        How decentra Protocol works?  Decentra Users and holders can send files and upload files on  dApp. Files , will be totally encrypted and secure in dApp with the help of IPFS Blockchain network . Every user will get their hash for their files. On the other end, users can receive file on their address by connecting their wallets and can download files there. If user comes with wrong hash he won't be able to receive the file
                     </p>
+
+                    <div className='lg:flex justify-center items-center gap-x-44 mx-auto space-y-8 py-12'>
+
+                        <div className='flex flex-col items-center space-y-6'>
+
+                            <div className=''>
+                                <p className='text-xl text-white-100 text-center'>
+                                    client /server
+                                </p>
+                                <img src={server} alt="Logo" className='' />
+                            </div>
+
+                            <div className='lg:flex items-center gap-x-6 lg:ml-56 space-y-3'>
+
+                                <svg className='flex mx-auto' width="30" height="151" viewBox="0 0 30 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.2929 149.707C14.6834 150.098 15.3166 150.098 15.7071 149.707L22.0711 143.343C22.4616 142.953 22.4616 142.319 22.0711 141.929C21.6805 141.538 21.0474 141.538 20.6568 141.929L15 147.586L9.34314 141.929C8.95262 141.538 8.31945 141.538 7.92893 141.929C7.5384 142.319 7.5384 142.953 7.92893 143.343L14.2929 149.707ZM14 -4.37114e-08L14 3.10417L16 3.10417L16 4.37114e-08L14 -4.37114e-08ZM14 9.3125L14 15.5208L16 15.5208L16 9.3125L14 9.3125ZM14 21.7292L14 27.9375L16 27.9375L16 21.7292L14 21.7292ZM14 34.1458L14 40.3542L16 40.3542L16 34.1458L14 34.1458ZM14 46.5625L14 52.7708L16 52.7708L16 46.5625L14 46.5625ZM14 58.9792L14 65.1875L16 65.1875L16 58.9792L14 58.9792ZM14 71.3958L14 77.6042L16 77.6042L16 71.3958L14 71.3958ZM14 83.8125L14 90.0208L16 90.0208L16 83.8125L14 83.8125ZM14 96.2292L14 102.438L16 102.438L16 96.2292L14 96.2292ZM14 108.646L14 114.854L16 114.854L16 108.646L14 108.646ZM14 121.063L14 127.271L16 127.271L16 121.063L14 121.063ZM14 133.479L14 139.688L16 139.688L16 133.479L14 133.479ZM14 145.896L14 149L16 149L16 145.896L14 145.896ZM13.5858 150.414C14.3668 151.195 15.6332 151.195 16.4142 150.414L29.1421 137.686C29.9232 136.905 29.9232 135.639 29.1421 134.858C28.3611 134.077 27.0948 134.077 26.3137 134.858L15 146.172L3.68629 134.858C2.90524 134.077 1.63891 134.077 0.857858 134.858C0.0768097 135.639 0.0768096 136.905 0.857858 137.686L13.5858 150.414ZM13 -8.74228e-08L13 3.10417L17 3.10417L17 8.74228e-08L13 -8.74228e-08ZM13 9.3125L13 15.5208L17 15.5208L17 9.3125L13 9.3125ZM13 21.7292L13 27.9375L17 27.9375L17 21.7292L13 21.7292ZM13 34.1458L13 40.3542L17 40.3542L17 34.1458L13 34.1458ZM13 46.5625L13 52.7708L17 52.7708L17 46.5625L13 46.5625ZM13 58.9792L13 65.1875L17 65.1875L17 58.9792L13 58.9792ZM13 71.3958L13 77.6042L17 77.6042L17 71.3958L13 71.3958ZM13 83.8125L13 90.0208L17 90.0208L17 83.8125L13 83.8125ZM13 96.2292L13 102.438L17 102.438L17 96.2292L13 96.2292ZM13 108.646L13 114.854L17 114.854L17 108.646L13 108.646ZM13 121.063L13 127.271L17 127.271L17 121.063L13 121.063ZM13 133.479L13 139.688L17 139.688L17 133.479L13 133.479ZM13 145.896L13 149L17 149L17 145.896L13 145.896Z" fill="white" />
+                                </svg>
+
+                                <p className='lg:text-left text-center'>
+                                    Files is downloaded and<br></br>
+                                    shared from a single location<br></br>
+                                    on a server
+                                </p>
+
+                            </div>
+
+                            <div className=''>
+                                <img src={monitor} alt="Logo" className='' />
+
+                                <p className='text-xl text-white-100 text-center pt-2 -ml-2'>
+                                    centralised
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div className='flex flex-col lg:items-start items-center justify-center space-y-6'>
+
+                            <div className='lg:flex items-center lg:space-y-0 space-y-4'>
+
+                                <div className='lg:-mt-7'>
+                                    <p className='text-xl text-white-100 text-center'>
+                                        IPFS
+                                    </p>
+                                    <img src={server_1} alt="Logo" className='' />
+                                </div>
+
+                                <svg className='lg:rotate-0 rotate-90 flex mx-auto' width="56" height="3" viewBox="0 0 56 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="1.5" x2="56" y2="1.5" stroke="white" stroke-width="3" />
+                                </svg>
+
+                                <img src={server_1} alt="Logo" className='' />
+
+                                <svg className='lg:rotate-0 rotate-90 flex mx-auto' width="56" height="3" viewBox="0 0 56 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="1.5" x2="56" y2="1.5" stroke="white" stroke-width="3" />
+                                </svg>
+
+                                <img src={server_1} alt="Logo" className='' />
+                            </div>
+
+                            <div className='lg:flex hidden items-center'>
+
+                                <img src={server_1} alt="Logo" className='' />
+
+                                <svg width="56" height="3" viewBox="0 0 56 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="1.5" x2="56" y2="1.5" stroke="white" stroke-width="3" />
+                                </svg>
+
+                                <img src={server_1} alt="Logo" className='' />
+
+                                <svg width="56" height="3" viewBox="0 0 56 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="1.5" x2="56" y2="1.5" stroke="white" stroke-width="3" />
+                                </svg>
+
+                                <img src={server_1} alt="Logo" className='' />
+                            </div>
+
+                            <div className='lg:flex space-y-3 items-center gap-x-6 lg:ml-12'>
+
+                                <svg className='flex mx-auto' width="30" height="151" viewBox="0 0 30 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.2929 149.707C14.6834 150.098 15.3166 150.098 15.7071 149.707L22.0711 143.343C22.4616 142.953 22.4616 142.319 22.0711 141.929C21.6805 141.538 21.0474 141.538 20.6568 141.929L15 147.586L9.34314 141.929C8.95262 141.538 8.31945 141.538 7.92893 141.929C7.5384 142.319 7.5384 142.953 7.92893 143.343L14.2929 149.707ZM14 -4.37114e-08L14 3.10417L16 3.10417L16 4.37114e-08L14 -4.37114e-08ZM14 9.3125L14 15.5208L16 15.5208L16 9.3125L14 9.3125ZM14 21.7292L14 27.9375L16 27.9375L16 21.7292L14 21.7292ZM14 34.1458L14 40.3542L16 40.3542L16 34.1458L14 34.1458ZM14 46.5625L14 52.7708L16 52.7708L16 46.5625L14 46.5625ZM14 58.9792L14 65.1875L16 65.1875L16 58.9792L14 58.9792ZM14 71.3958L14 77.6042L16 77.6042L16 71.3958L14 71.3958ZM14 83.8125L14 90.0208L16 90.0208L16 83.8125L14 83.8125ZM14 96.2292L14 102.438L16 102.438L16 96.2292L14 96.2292ZM14 108.646L14 114.854L16 114.854L16 108.646L14 108.646ZM14 121.063L14 127.271L16 127.271L16 121.063L14 121.063ZM14 133.479L14 139.688L16 139.688L16 133.479L14 133.479ZM14 145.896L14 149L16 149L16 145.896L14 145.896ZM13.5858 150.414C14.3668 151.195 15.6332 151.195 16.4142 150.414L29.1421 137.686C29.9232 136.905 29.9232 135.639 29.1421 134.858C28.3611 134.077 27.0948 134.077 26.3137 134.858L15 146.172L3.68629 134.858C2.90524 134.077 1.63891 134.077 0.857858 134.858C0.0768097 135.639 0.0768096 136.905 0.857858 137.686L13.5858 150.414ZM13 -8.74228e-08L13 3.10417L17 3.10417L17 8.74228e-08L13 -8.74228e-08ZM13 9.3125L13 15.5208L17 15.5208L17 9.3125L13 9.3125ZM13 21.7292L13 27.9375L17 27.9375L17 21.7292L13 21.7292ZM13 34.1458L13 40.3542L17 40.3542L17 34.1458L13 34.1458ZM13 46.5625L13 52.7708L17 52.7708L17 46.5625L13 46.5625ZM13 58.9792L13 65.1875L17 65.1875L17 58.9792L13 58.9792ZM13 71.3958L13 77.6042L17 77.6042L17 71.3958L13 71.3958ZM13 83.8125L13 90.0208L17 90.0208L17 83.8125L13 83.8125ZM13 96.2292L13 102.438L17 102.438L17 96.2292L13 96.2292ZM13 108.646L13 114.854L17 114.854L17 108.646L13 108.646ZM13 121.063L13 127.271L17 127.271L17 121.063L13 121.063ZM13 133.479L13 139.688L17 139.688L17 133.479L13 133.479ZM13 145.896L13 149L17 149L17 145.896L13 145.896Z" fill="white" />
+                                </svg>
+
+                                <p className='lg:text-left text-center'>
+                                    Files is downloaded and<br></br>
+                                    shared by hash ID that can come<br></br>
+                                    from multiple locations
+                                </p>
+
+                            </div>
+
+                            <div className='ml-5'>
+                                <img src={monitor} alt="Logo" className='' />
+
+                                <p className='text-xl text-white-100 text-center pt-2'>
+                                    decentralised
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
 
                     <div className='lg:flex justify-center gap-x-20 mx-auto space-y-6'>
 
@@ -207,13 +318,13 @@ export default function Home() {
 
             </div>
 
-            {/*  */}
+            {/* CONTRACT & TOKEN SUPPLY */}
 
             <div
                 id="contract"
                 className="lg:py-12 py-5 lg:px-8 px-5 container mx-auto"
             >
-                <h3 className="md:text-6xl text-2xl font-montserat font-semibold text-center">
+                <h3 className="md:text-5xl text-2xl font-montserat font-semibold text-center">
                     CONTRACT & TOKEN SUPPLY
                 </h3>
 
@@ -248,6 +359,7 @@ export default function Home() {
                             </div>
 
                         </div>
+
                         <div className='lg:flex items-baseline justify-between gap-8 space-y-6 mt-8'>
 
                             <div className='border border-custom p-8'>
@@ -279,8 +391,8 @@ export default function Home() {
                 id="roadmap"
                 className="lg:py-12 py-5 lg:px-8 px-5 container mx-auto"
             >
-                <h3 className="md:text-6xl text-2xl font-montserat font-bold text-center">
-                    ROADMAP
+                <h3 className="md:text-6xl text-2xl font-montserat font-semibold text-center">
+                    Road map
                 </h3>
 
                 <div className="lg:mt-12 mt-6 rounded-2xl bg-blue-200 lg:p-12 p-6">
