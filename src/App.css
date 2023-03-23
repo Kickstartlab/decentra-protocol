@@ -1,0 +1,41 @@
+.bg-gradient {
+  background: linear-gradient(90deg, #3DBFBB 0%, #8635BD 100%);
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+  filter: drop-shadow(8px 8px 6px rgb(146, 179, 221));
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.text-blur {
+  background: linear-gradient(180.27deg, #FFFFFF -188.16%, rgba(255, 255, 255, 0) 99.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.line {
+  background: #8350DF;
+  animation: line 6s 5s infinite linear;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
