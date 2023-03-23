@@ -11,6 +11,7 @@ export default function Menu() {
   return (
 
     <header>
+      
       <div className="lg:flex hidden items-center justify-between font-montserat h-28">
         <a href="/" className="logo lg:my-12">
           <img src={logo} alt="Logo" />
@@ -28,7 +29,7 @@ export default function Menu() {
 
         <a href="https://t.me/MetaGenesisPortal">
           <button className="bg-white-100 rounded-lg py-3 lg:px-8 px-4 mt-5 font-semibold text-black-100">
-          Connect wallet
+            Connect wallet
           </button>
         </a>
       </div>
@@ -57,7 +58,7 @@ export default function Menu() {
           </div>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md transition duration-500 cursor-pointer  text-white-100">
             <a href="/" className="text-lg ml-4 font-semibold">Home</a>
-          </button>  
+          </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer hover:bg-white-100 text-white-100">
             <a href="#about" className="text-lg ml-4 font-semibold">About</a>
           </button>

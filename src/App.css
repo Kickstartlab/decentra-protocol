@@ -17,6 +17,12 @@
   }
 }
 
+.border-custom {
+  background: rgba(13, 13, 14, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+}
+
 .text-blur {
   background: linear-gradient(180.27deg, #FFFFFF -188.16%, rgba(255, 255, 255, 0) 99.76%);
   -webkit-background-clip: text;
