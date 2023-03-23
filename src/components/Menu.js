@@ -27,7 +27,7 @@ export default function Menu() {
           </ul>
         </nav>
 
-        <a href="https://t.me/MetaGenesisPortal">
+        <a href="/">
           <button className="bg-white-100 rounded-lg py-3 lg:px-8 px-4 mt-5 font-semibold text-black-100">
             Connect wallet
           </button>
