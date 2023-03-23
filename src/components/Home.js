@@ -87,12 +87,12 @@ export default function Home() {
                                 A Blockchain and IPFS Framework for Secure File Sharing and Data Provenance
                             </p>
 
-                            <p className='py-5 leading-loose'>
-                                The Decentra Protocol leverages the power of blockchain technology to provide a tamper-proof and transparent record of data transactions. This means that all file transfers and access requests are recorded on a decentralized ledger, which is secured by a consensus mechanism and cannot be altered by any single entity.
+                            <p className='py-5 lg:leading-loose'>
+                                Decentra Protocol is an arbitrum based project developing a  decentralized platform for file sharing and data provenance. The protocol's focus on user privacy, security, and data integrity makes it an ideal solution for a wide range of applications, and its flexible design enables it to be customized to meet the specific needs of different users.
                             </p>
 
-                            <p className='leading-loose'>
-                                Decentra Protocol is an arbitrum based project developing a decentralized platform for file sharing and data provenance. The protocol's focus on user privacy, security, and data integrity makes it an ideal solution for a wide range of applications, and its flexible design enables it to be customized to meet the specific needs of different users.
+                            <p className='lg:leading-loose'>
+                                The Decentra Protocol leverages the power of blockchain technology to provide a tamper-proof and transparent record of data transactions. This means that all file transfers and access requests are recorded on a decentralized ledger, which is secured by a consensus mechanism and cannot be altered by any single entity.
                             </p>
 
                         </div>
@@ -117,8 +117,8 @@ export default function Home() {
                     <div className="lg:flex block justify-center items-center gap-x-16 py-16">
 
 
-                        <div data-aos="zoom-in" data-aos-delay="350" className="w-10/12 sm:flex mx-auto">
-                            <img src={feature} alt="Logo" className='' />
+                        <div data-aos="zoom-in" data-aos-delay="350" className="">
+                            <img src={feature} alt="Logo" className='w-10/12 sm:flex mx-auto' />
                         </div>
 
                         <div data-aos="fade-left" className="lg:w-1/2 w-full md:mt-0 mt-12 text-right">
@@ -166,6 +166,9 @@ export default function Home() {
 
                 <div className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto">
 
+                    <p className='bg-purple-100 flex mx-auto w-36 rounded-full text-center py-3 px-5 mb-8'>
+                        How it works
+                    </p>
 
                     <div className='lg:flex justify-center gap-x-20 mx-auto space-y-6'>
 
@@ -239,17 +242,14 @@ export default function Home() {
                             </div>
                             <div className='border border-custom p-8'>
                                 <p className='text-xl font-semibold text-center'>
-                                    2.5% FOR DEVELOPMENT
-                                </p>
-                            </div>
-                        </div>
-                        <div className='lg:flex items-baseline justify-between gap-8 space-y-6 mt-8'>
-                            <div className='border border-custom p-8'>
-                                <p className='text-xl font-semibold text-center'>
                                     Smart Contract Platform:
                                     ARB
                                 </p>
                             </div>
+
+                        </div>
+                        <div className='lg:flex items-baseline justify-between gap-8 space-y-6 mt-8'>
+
                             <div className='border border-custom p-8'>
                                 <p className='text-xl font-semibold text-center'>
                                     TAX 5/5
@@ -258,6 +258,11 @@ export default function Home() {
                             <div className='border border-custom p-8'>
                                 <p className='text-xl font-semibold text-center'>
                                     2.5 %FOR MARKETING
+                                </p>
+                            </div>
+                            <div className='border border-custom p-8'>
+                                <p className='text-xl font-semibold text-center'>
+                                    2.5% FOR DEVELOPMENT
                                 </p>
                             </div>
                         </div>

@@ -21,7 +21,7 @@ export default function Footer() {
           </h2>
 
           <div className="py-2 pl-6 pr-1 lg:w-7/12 w-full lg:bg-black-50 lg:space-y-0 space-y-5 lg:flex items-center justify-between rounded-full">
-            <input type="email" placeholder="Enter your email" id="email" required="" className="bg-black-50 focus:ring-0 focus:outline-none lg:w-7/12 w-full" />
+            <input type="email" placeholder="Enter your email" id="email" required="" className="lg:p-0 p-5 lg:rounded-none rounded-full bg-black-50 focus:ring-0 focus:outline-none lg:w-7/12 w-full" />
 
             <button className='text-white-100 lg:px-12 px-2 lg:py-3 py-2 bg-purple-100 rounded-full'>
               Subcribe
