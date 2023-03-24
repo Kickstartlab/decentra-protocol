@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import star from '../assets/star.png';
 import about from '../assets/about.png';
 import feature from '../assets/feature.png';
-import data from '../assets/data.png';
+import upload from '../assets/upload.png';
 import video from '../assets/video.mp4';
 import work_1 from '../assets/work_1.png';
 import server from '../assets/server.png';
@@ -22,6 +22,19 @@ export default function Home() {
         });
         Aos.refresh();
     }, [])
+
+    const [copySuccess, setCopySuccess] = useState('');
+
+    // your function to copy here
+
+    const copyToClipBoard = async copyMe => {
+        try {
+            await navigator.clipboard.writeText(copyMe);
+            setCopySuccess('Copied!');
+        } catch (err) {
+            setCopySuccess('Failed to copy!');
+        }
+    };
 
     return (
         <div className="bg-black-100 font-montserat overflow-hidden text-white-100">
@@ -133,6 +146,12 @@ export default function Home() {
                             <p className='py-6 lg:leading-loose opacity-80 lg:text-xl'>
                                 One of the key features of the Decetra Protocol is its emphasis on user privacy and security. All files shared through the protocol are encrypted using end-to-end encryption, which means that only the sender and receiver have access to the unencrypted content. This ensures that files are protected from unauthorized access or interception, even if they are intercepted during transmission.
                             </p>
+
+                            <a href="/">
+                                <button className="text-white-100 bg-purple-100 py-4 text-lg md:px-8 px-3 rounded-md font-semibold mt-5">
+                                    Launch Dapp
+                                </button>
+                            </a>
 
                         </div>
 
@@ -257,6 +276,8 @@ export default function Home() {
                         </div>
 
                     </div>
+
+                    <img src={upload} alt="Logo" className='flex mx-auto py-12' />
 
                     <div className='lg:flex justify-center gap-x-20 mx-auto space-y-6'>
 
