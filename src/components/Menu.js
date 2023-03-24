@@ -22,6 +22,8 @@ export default function Menu() {
             <li><a href="/" className="text-zinc-100">Home</a></li>
             <li><a href="/" className="cursor-pointer">Whitepaper</a></li>
             <li><a href="#about" className="cursor-pointer">About us</a></li>
+            <li><a href="https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2" className="cursor-pointer">Buy Now</a></li>
+            <li><a href="https://t.me/decentraprotocol_arb" className="cursor-pointer">Contact us</a></li>
           </ul>
         </nav>
 
@@ -62,6 +64,12 @@ export default function Menu() {
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
             <a href="#about" className="text-lg ml-4 font-semibold">About Us</a>
+          </button>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
+            <a href="https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6B3595068778DD592e39A122f4f5a5cF09C90fE2" className="text-lg ml-4 font-semibold">Buy Now</a>
+          </button>
+          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
+            <a href="https://t.me/decentraprotocol_arb" className="text-lg ml-4 font-semibold">Contact Us</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-black-100 bg-white-100">
             <a href="/" className="text-lg ml-4 font-semibold">Connect Wallet</a>

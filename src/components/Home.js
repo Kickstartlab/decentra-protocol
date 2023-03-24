@@ -40,7 +40,7 @@ export default function Home() {
         <div className="bg-black-100 font-montserat overflow-hidden text-white-100">
 
             <div className='bg-purple-100 py-3 text-center'>
-                Try our beta version update Here!
+                CA: 0x83952c7b1b4b339f2c5e5bcb44ddfc31d5f6c902
             </div>
 
             {/* top section */}
