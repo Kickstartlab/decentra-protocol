@@ -20,10 +20,8 @@ export default function Menu() {
         <nav>
           <ul className="text-md flex justify-center gap-12 items-center text-white-100">
             <li><a href="/" className="text-zinc-100">Home</a></li>
-            <li><a href="#service" className=" cursor-pointer">Services</a></li>
             <li><a href="/" className="cursor-pointer">Whitepaper</a></li>
             <li><a href="#about" className="cursor-pointer">About us</a></li>
-            <li><a href="#working" className="cursor-pointer">Working</a></li>
           </ul>
         </nav>
 
@@ -59,20 +57,14 @@ export default function Menu() {
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md transition duration-500 cursor-pointer  text-white-100">
             <a href="/" className="text-lg ml-4 font-semibold">Home</a>
           </button>
-          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer hover:bg-white-100 text-white-100">
-            <a href="#about" className="text-lg ml-4 font-semibold">Services</a>
-          </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
-            <a href="#achievement" className="text-lg ml-4 font-semibold">Whitepaper</a>
+            <a href="/" className="text-lg ml-4 font-semibold">Whitepaper</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
             <a href="#about" className="text-lg ml-4 font-semibold">About Us</a>
           </button>
-          <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-white-100">
-            <a href="#working" className="text-lg ml-4 font-semibold">Working</a>
-          </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer  text-black-100 bg-white-100">
-            <a href="#faq" className="text-lg ml-4 font-semibold">Connect Wallet</a>
+            <a href="/" className="text-lg ml-4 font-semibold">Connect Wallet</a>
           </button>
         </div> : null
       }
