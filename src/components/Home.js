@@ -341,9 +341,13 @@ export default function Home() {
                                 <p className='text-lg font-semibold text-center'>
                                     Contract Address:
                                 </p>
-                                <p className='text-lg font-semibold text-center'>
+                                <button onClick={() => copyToClipBoard('0x83952c7b1b4b339f2c5e5bcb44ddfc31d5f6c902')} className='text-lg font-semibold text-center flex mx-auto pt-2'>
                                     0x83952c7b1b4b339f2c5e5<br></br>bcb44ddfc31d5f6c902
-                                </p>
+                                    <span title='click to copy' className='pl-2'><i class="fa fa-clone" aria-hidden="true"></i></span>
+                                    <span className="text-white-100 text-sm font-thin ml-56 -mt-5 absolute duration-300">
+                                        {copySuccess}
+                                    </span>
+                                </button>
                             </div>
                             <div className='border border-custom p-8'>
                                 <p className='font-semibold text-center'>
