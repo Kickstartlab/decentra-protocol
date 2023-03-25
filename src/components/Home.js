@@ -338,19 +338,21 @@ export default function Home() {
                     <div>
                         <div className='lg:flex items-baseline justify-between gap-8 space-y-6'>
                             <div className='border border-custom p-8'>
-                                <p className='text-xl font-semibold text-center'>
+                                <p className='text-lg font-semibold text-center'>
                                     Contract Address:
-                                    TBA
+                                </p>
+                                <p className='text-lg font-semibold text-center'>
+                                    0x83952c7b1b4b339f2c5e5<br></br>bcb44ddfc31d5f6c902
                                 </p>
                             </div>
                             <div className='border border-custom p-8'>
-                                <p className='text-xl font-semibold text-center'>
+                                <p className='font-semibold text-center'>
                                     Token Supply:
                                     10,000,000 $DCP
                                 </p>
                             </div>
                             <div className='border border-custom p-8'>
-                                <p className='text-xl font-semibold text-center'>
+                                <p className='font-semibold text-center'>
                                     Smart Contract Platform:
                                     ARB
                                 </p>
@@ -358,7 +360,7 @@ export default function Home() {
 
                         </div>
 
-                        <div className='lg:flex items-baseline justify-between gap-8 space-y-6 mt-8'>
+                        <div className='lg:flex items-baseline justify-between gap-8 lg:space-y-0 space-y-6 mt-8'>
 
                             <div className='border border-custom p-8'>
                                 <p className='text-xl font-semibold text-center'>
