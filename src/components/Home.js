@@ -144,7 +144,7 @@ export default function Home() {
                             </h2>
 
                             <p className='py-6 lg:leading-loose opacity-80 lg:text-xl'>
-                                One of the key features of the Decetra Protocol is its emphasis on user privacy and security. All files shared through the protocol are encrypted using end-to-end encryption, which means that only the sender and receiver have access to the unencrypted content. This ensures that files are protected from unauthorized access or interception, even if they are intercepted during transmission.
+                                One of the key features of the Decentra Protocol is its emphasis on user privacy and security. All files shared through the protocol are encrypted using end-to-end encryption, which means that only the sender and receiver have access to the unencrypted content. This ensures that files are protected from unauthorized access or interception, even if they are intercepted during transmission.
                             </p>
 
                             <a href="/">
@@ -290,7 +290,7 @@ export default function Home() {
                                 Important Aspect
                             </h3>
                             <p data-aos='fade-in' className='pt-6 lg:leading-loose'>
-                                The Decetra Protocol can be used in a wide range of applications, including enterprise file sharing, digital asset management, and secure data exchange. The protocol is designed to be flexible and customizable, so that it can be tailored to the specific needs of different use cases.
+                                The Decentra Protocol can be used in a wide range of applications, including enterprise file sharing, digital asset management, and secure data exchange. The protocol is designed to be flexible and customizable, so that it can be tailored to the specific needs of different use cases.
                             </p>
                         </div>
 
@@ -307,7 +307,7 @@ export default function Home() {
                                 Another Important Aspect
                             </h3>
                             <p data-aos='fade-in' className='pt-6 lg:leading-loose'>
-                                Another important aspect of the Decetra Protocol is its focus on data provenance. The protocol enables users to track the history of their files, including all access requests, modifications, and transfers. This provides a transparent and auditable record of data transactions, which can be used to verify the authenticity and integrity of files.
+                                Another important aspect of the Decentra Protocol is its focus on data provenance. The protocol enables users to track the history of their files, including all access requests, modifications, and transfers. This provides a transparent and auditable record of data transactions, which can be used to verify the authenticity and integrity of files.
                             </p>
                         </div>
                     </div>
