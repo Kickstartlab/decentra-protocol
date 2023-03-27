@@ -67,9 +67,9 @@ export default function Home() {
                             </p>
 
                             <div data-aos='zoom-in' className="flex items-center justify-center gap-12 mx-auto">
-                                <a href="/">
+                                <a href="https://decentra-protocol.herokuapp.com/">
                                     <button className="text-white-100 bg-purple-100 py-4 text-lg md:px-8 px-3 rounded-md font-semibold mt-5">
-                                        Get Started
+                                        Dapp
                                     </button>
                                 </a>
 
@@ -147,7 +147,7 @@ export default function Home() {
                                 One of the key features of the Decentra Protocol is its emphasis on user privacy and security. All files shared through the protocol are encrypted using end-to-end encryption, which means that only the sender and receiver have access to the unencrypted content. This ensures that files are protected from unauthorized access or interception, even if they are intercepted during transmission.
                             </p>
 
-                            <a href="/">
+                            <a href="https://decentra-protocol.herokuapp.com/">
                                 <button className="text-white-100 bg-purple-100 py-4 text-lg md:px-8 px-3 rounded-md font-semibold mt-5">
                                     Launch Dapp
                                 </button>
